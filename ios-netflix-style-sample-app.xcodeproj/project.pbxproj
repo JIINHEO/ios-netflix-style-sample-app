@@ -13,6 +13,10 @@
 		E8D6896D274F6EFB00ED8601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D6896B274F6EFB00ED8601 /* LaunchScreen.storyboard */; };
 		E8D68975274F749100ED8601 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D68974274F749100ED8601 /* HomeViewController.swift */; };
 		E8D68978274F765500ED8601 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E8D68977274F765500ED8601 /* SnapKit */; };
+		E8D6897A274FA06200ED8601 /* Content.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8D68979274FA06200ED8601 /* Content.plist */; };
+		E8D6897C274FA0A600ED8601 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6897B274FA0A600ED8601 /* Content.swift */; };
+		E8D6897E274FB6DF00ED8601 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6897D274FB6DF00ED8601 /* ContentCollectionViewCell.swift */; };
+		E8D68980274FB96F00ED8601 /* ContentCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D6897F274FB96F00ED8601 /* ContentCollectionViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		E8D6896C274F6EFB00ED8601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8D6896E274F6EFB00ED8601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8D68974274F749100ED8601 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E8D68979274FA06200ED8601 /* Content.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Content.plist; sourceTree = "<group>"; };
+		E8D6897B274FA0A600ED8601 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		E8D6897D274FB6DF00ED8601 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		E8D6897F274FB96F00ED8601 /* ContentCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,12 @@
 				E8D68962274F6EF900ED8601 /* SceneDelegate.swift */,
 				E8D68969274F6EFB00ED8601 /* Assets.xcassets */,
 				E8D6896B274F6EFB00ED8601 /* LaunchScreen.storyboard */,
-				E8D6896E274F6EFB00ED8601 /* Info.plist */,
 				E8D68974274F749100ED8601 /* HomeViewController.swift */,
+				E8D6897F274FB96F00ED8601 /* ContentCollectionViewHeader.swift */,
+				E8D6897B274FA0A600ED8601 /* Content.swift */,
+				E8D6897D274FB6DF00ED8601 /* ContentCollectionViewCell.swift */,
+				E8D68979274FA06200ED8601 /* Content.plist */,
+				E8D6896E274F6EFB00ED8601 /* Info.plist */,
 			);
 			path = "ios-netflix-style-sample-app";
 			sourceTree = "<group>";
@@ -132,6 +144,7 @@
 			files = (
 				E8D6896D274F6EFB00ED8601 /* LaunchScreen.storyboard in Resources */,
 				E8D6896A274F6EFB00ED8601 /* Assets.xcassets in Resources */,
+				E8D6897A274FA06200ED8601 /* Content.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8D68961274F6EF900ED8601 /* AppDelegate.swift in Sources */,
+				E8D68980274FB96F00ED8601 /* ContentCollectionViewHeader.swift in Sources */,
 				E8D68963274F6EF900ED8601 /* SceneDelegate.swift in Sources */,
 				E8D68975274F749100ED8601 /* HomeViewController.swift in Sources */,
+				E8D6897C274FA0A600ED8601 /* Content.swift in Sources */,
+				E8D6897E274FB6DF00ED8601 /* ContentCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
