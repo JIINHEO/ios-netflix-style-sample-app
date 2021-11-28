@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E85CFFE22753BA6B0084480E /* ContentCollectionViewRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85CFFE12753BA6B0084480E /* ContentCollectionViewRankCell.swift */; };
 		E8D68961274F6EF900ED8601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D68960274F6EF900ED8601 /* AppDelegate.swift */; };
 		E8D68963274F6EF900ED8601 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D68962274F6EF900ED8601 /* SceneDelegate.swift */; };
 		E8D6896A274F6EFB00ED8601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D68969274F6EFB00ED8601 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E85CFFE12753BA6B0084480E /* ContentCollectionViewRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewRankCell.swift; sourceTree = "<group>"; };
 		E8D6895D274F6EF900ED8601 /* ios-netflix-style-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-netflix-style-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D68960274F6EF900ED8601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8D68962274F6EF900ED8601 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				E8D68969274F6EFB00ED8601 /* Assets.xcassets */,
 				E8D6896B274F6EFB00ED8601 /* LaunchScreen.storyboard */,
 				E8D68974274F749100ED8601 /* HomeViewController.swift */,
+				E85CFFE12753BA6B0084480E /* ContentCollectionViewRankCell.swift */,
 				E8D6897F274FB96F00ED8601 /* ContentCollectionViewHeader.swift */,
 				E8D6897B274FA0A600ED8601 /* Content.swift */,
 				E8D6897D274FB6DF00ED8601 /* ContentCollectionViewCell.swift */,
@@ -158,6 +161,7 @@
 				E8D68961274F6EF900ED8601 /* AppDelegate.swift in Sources */,
 				E8D68980274FB96F00ED8601 /* ContentCollectionViewHeader.swift in Sources */,
 				E8D68963274F6EF900ED8601 /* SceneDelegate.swift in Sources */,
+				E85CFFE22753BA6B0084480E /* ContentCollectionViewRankCell.swift in Sources */,
 				E8D68975274F749100ED8601 /* HomeViewController.swift in Sources */,
 				E8D6897C274FA0A600ED8601 /* Content.swift in Sources */,
 				E8D6897E274FB6DF00ED8601 /* ContentCollectionViewCell.swift in Sources */,
@@ -306,7 +310,6 @@
 				INFOPLIST_FILE = "ios-netflix-style-sample-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +337,6 @@
 				INFOPLIST_FILE = "ios-netflix-style-sample-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
