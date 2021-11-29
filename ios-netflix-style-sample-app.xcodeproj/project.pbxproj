@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E85CFFE22753BA6B0084480E /* ContentCollectionViewRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85CFFE12753BA6B0084480E /* ContentCollectionViewRankCell.swift */; };
+		E88D0CEF2754E7D20053DF4C /* ContentCollectionViewMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88D0CEE2754E7D20053DF4C /* ContentCollectionViewMainCell.swift */; };
+		E88D0CF12754F2330053DF4C /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88D0CF02754F2330053DF4C /* UIButton.swift */; };
 		E8D68961274F6EF900ED8601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D68960274F6EF900ED8601 /* AppDelegate.swift */; };
 		E8D68963274F6EF900ED8601 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D68962274F6EF900ED8601 /* SceneDelegate.swift */; };
 		E8D6896A274F6EFB00ED8601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D68969274F6EFB00ED8601 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		E85CFFE12753BA6B0084480E /* ContentCollectionViewRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewRankCell.swift; sourceTree = "<group>"; };
+		E88D0CEE2754E7D20053DF4C /* ContentCollectionViewMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewMainCell.swift; sourceTree = "<group>"; };
+		E88D0CF02754F2330053DF4C /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		E8D6895D274F6EF900ED8601 /* ios-netflix-style-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-netflix-style-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D68960274F6EF900ED8601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8D68962274F6EF900ED8601 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 				E8D68969274F6EFB00ED8601 /* Assets.xcassets */,
 				E8D6896B274F6EFB00ED8601 /* LaunchScreen.storyboard */,
 				E8D68974274F749100ED8601 /* HomeViewController.swift */,
+				E88D0CEE2754E7D20053DF4C /* ContentCollectionViewMainCell.swift */,
+				E88D0CF02754F2330053DF4C /* UIButton.swift */,
 				E85CFFE12753BA6B0084480E /* ContentCollectionViewRankCell.swift */,
 				E8D6897F274FB96F00ED8601 /* ContentCollectionViewHeader.swift */,
 				E8D6897B274FA0A600ED8601 /* Content.swift */,
@@ -163,8 +169,10 @@
 				E8D68963274F6EF900ED8601 /* SceneDelegate.swift in Sources */,
 				E85CFFE22753BA6B0084480E /* ContentCollectionViewRankCell.swift in Sources */,
 				E8D68975274F749100ED8601 /* HomeViewController.swift in Sources */,
+				E88D0CEF2754E7D20053DF4C /* ContentCollectionViewMainCell.swift in Sources */,
 				E8D6897C274FA0A600ED8601 /* Content.swift in Sources */,
 				E8D6897E274FB6DF00ED8601 /* ContentCollectionViewCell.swift in Sources */,
+				E88D0CF12754F2330053DF4C /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
